@@ -1,4 +1,4 @@
-fp = open('a.txt', 'r', encoding='utf-8')
+fp = open('/opt/test/a.txt', 'r', encoding='utf-8')
 content = fp.read()
 print(content)
 li, li2, li3, li4 = [], [], [], []
